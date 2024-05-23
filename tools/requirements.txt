@@ -6,3 +6,4 @@ structlog==22.3.0
 taskcluster==47.1.2
 # Please see #1779, this eventually must be removed!
 urllib3==1.26.14
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
